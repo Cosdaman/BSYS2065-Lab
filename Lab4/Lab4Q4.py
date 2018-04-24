@@ -15,8 +15,8 @@ toit.color("blue")
 toit.pensize(3)
 toit.speed(0)
 
-for i in range(24):
+for i in range(20):
     drawsquare(80)
-    toit.left(15)
+    toit.left(18)
 
 wn.exitonclick()
