@@ -11,27 +11,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Lab5Q5-17.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lab5/Lab5Q5-17.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Lab5Q7-6.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Lab5/Lab5Q7-6.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Lab5Q7-8.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Lab5Q7-8.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Lab5/Lab5Q7-8.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -56,8 +42,8 @@
         <option value="$PROJECT_DIR$/Lab4/Lab4Q8.py" />
         <option value="$PROJECT_DIR$/Lab4/Lab4Q14.py" />
         <option value="$PROJECT_DIR$/Lab5/Lab5Q5-17.py" />
-        <option value="$PROJECT_DIR$/Lab5/Lab5Q7-8.py" />
         <option value="$PROJECT_DIR$/Lab5/Lab5Q7-6.py" />
+        <option value="$PROJECT_DIR$/Lab5/Lab5Q7-8.py" />
       </list>
     </option>
   </component>
@@ -113,7 +99,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Lab5Q7-6">
+  <component name="RunManager" selected="Python.Lab5Q7-8">
     <configuration name="Lab4Q14" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="BSYS2065-Lab" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -127,24 +113,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab4/Lab4Q14.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="Lab4Q4" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="BSYS2065-Lab" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lab4" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab4/Lab4Q4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -204,20 +172,38 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="Lab5Q7-8" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="BSYS2065-Lab" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lab5" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab5/Lab5Q7-8.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
-      <item itemvalue="Python.Lab4Q4" />
       <item itemvalue="Python.Lab4Q8" />
       <item itemvalue="Python.Lab4Q14" />
       <item itemvalue="Python.Lab5Q5-17" />
       <item itemvalue="Python.Lab5Q7-6" />
+      <item itemvalue="Python.Lab5Q7-8" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Lab5Q7-8" />
         <item itemvalue="Python.Lab5Q7-6" />
         <item itemvalue="Python.Lab5Q5-17" />
         <item itemvalue="Python.Lab4Q14" />
         <item itemvalue="Python.Lab4Q8" />
-        <item itemvalue="Python.Lab4Q4" />
       </list>
     </recent_temporary>
   </component>
@@ -236,6 +222,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-5" y="0" width="1485" height="876" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12440517" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -363,6 +350,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Lab5/Lab5Q7-6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Lab5/Lab5Q5-17.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -371,12 +365,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab5/Lab5Q7-8.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab5/Lab5Q7-6.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
