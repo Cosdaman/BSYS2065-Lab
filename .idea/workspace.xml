@@ -11,16 +11,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Lab6Q8-2.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Lab6Q8-2.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Lab6/Lab6Q8-2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="187">
+              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Lab6Q8-4.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Lab6Q8-4.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lab6/Lab6Q8-4.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="175">
@@ -57,8 +57,8 @@
         <option value="$PROJECT_DIR$/Lab5/Lab5Q7-6.py" />
         <option value="$PROJECT_DIR$/Lab5/Lab5Q7-8.py" />
         <option value="$PROJECT_DIR$/Lab5/Lab5Q7-12.py" />
-        <option value="$PROJECT_DIR$/Lab6/Lab6Q8-2.py" />
         <option value="$PROJECT_DIR$/Lab6/Lab6Q8-4.py" />
+        <option value="$PROJECT_DIR$/Lab6/Lab6Q8-2.py" />
       </list>
     </option>
   </component>
@@ -109,7 +109,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Lab6Q8-4">
+  <component name="RunManager" selected="Python.Lab6Q8-2">
     <configuration name="Lab5Q7-12" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="BSYS2065-Lab" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -209,8 +209,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Lab6Q8-4" />
         <item itemvalue="Python.Lab6Q8-2" />
+        <item itemvalue="Python.Lab6Q8-4" />
         <item itemvalue="Python.Lab5Q7-12" />
         <item itemvalue="Python.Lab5Q7-8" />
         <item itemvalue="Python.Lab5Q7-6" />
@@ -412,13 +412,6 @@
     <entry file="file://$PROJECT_DIR$/Lab6/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lab6/Lab6Q8-2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lab6/Lab6Q8-4.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -426,6 +419,13 @@
           <folding>
             <element signature="e#149#162#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab6/Lab6Q8-2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
         </state>
       </provider>
     </entry>

@@ -9,9 +9,9 @@
 
 def print_triangular_numbers(n):
     number = int(0)
-    for i in range(n):
+    for i in range(1, n+1):
         number = number + i
-        print(number)
+        print(i, "\t", number)
 
 
 x = int(input("How many triangular numbers do you want to see? Enter here: "))
