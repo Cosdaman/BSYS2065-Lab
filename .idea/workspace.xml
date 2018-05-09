@@ -11,20 +11,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Lab5Q7-8.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lab5/Lab5Q7-8.py">
+      <file leaf-file-name="Lab6Q8-2.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Lab6/Lab6Q8-2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Lab5Q7-12.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Lab5/Lab5Q7-12.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="323">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -54,6 +45,7 @@
         <option value="$PROJECT_DIR$/Lab5/Lab5Q7-6.py" />
         <option value="$PROJECT_DIR$/Lab5/Lab5Q7-8.py" />
         <option value="$PROJECT_DIR$/Lab5/Lab5Q7-12.py" />
+        <option value="$PROJECT_DIR$/Lab6/Lab6Q8-2.py" />
       </list>
     </option>
   </component>
@@ -68,6 +60,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -80,11 +73,15 @@
               <item name="BSYS2065-Lab" type="462c0819:PsiDirectoryNode" />
               <item name="Lab5" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="BSYS2065-Lab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BSYS2065-Lab" type="462c0819:PsiDirectoryNode" />
+              <item name="Lab6" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="RunDashboard">
@@ -99,25 +96,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Lab5Q7-12">
-    <configuration name="Lab4Q14" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="BSYS2065-Lab" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lab4" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab4/Lab4Q14.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.Lab6Q8-2">
     <configuration name="Lab5Q5-17" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="BSYS2065-Lab" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -190,20 +169,38 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="Lab6Q8-2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="BSYS2065-Lab" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lab6" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab6/Lab6Q8-2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
-      <item itemvalue="Python.Lab4Q14" />
       <item itemvalue="Python.Lab5Q5-17" />
       <item itemvalue="Python.Lab5Q7-6" />
       <item itemvalue="Python.Lab5Q7-8" />
       <item itemvalue="Python.Lab5Q7-12" />
+      <item itemvalue="Python.Lab6Q8-2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Lab6Q8-2" />
         <item itemvalue="Python.Lab5Q7-12" />
         <item itemvalue="Python.Lab5Q7-8" />
         <item itemvalue="Python.Lab5Q7-6" />
         <item itemvalue="Python.Lab5Q5-17" />
-        <item itemvalue="Python.Lab4Q14" />
       </list>
     </recent_temporary>
   </component>
@@ -223,12 +220,12 @@
   <component name="ToolWindowManager">
     <frame x="-5" y="0" width="1485" height="876" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12440517" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12440517" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32984293" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32984293" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -247,10 +244,31 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="17" />
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Lab6/Lab6Q8-2.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="18" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Lab5/Lab5Q7-8.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab5/Lab5Q7-12.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Lab4/Lab4Q14.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -366,7 +384,7 @@
     <entry file="file://$PROJECT_DIR$/Lab5/Lab5Q7-8.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
@@ -374,6 +392,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab6/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab6/Lab6Q8-2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
