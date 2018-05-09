@@ -11,11 +11,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Lab6Q8-2.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Lab6Q8-2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lab6/Lab6Q8-2.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
               <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Lab6Q8-4.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Lab6/Lab6Q8-4.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="28" column="20" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+              <folding>
+                <element signature="e#149#162#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -46,6 +58,7 @@
         <option value="$PROJECT_DIR$/Lab5/Lab5Q7-8.py" />
         <option value="$PROJECT_DIR$/Lab5/Lab5Q7-12.py" />
         <option value="$PROJECT_DIR$/Lab6/Lab6Q8-2.py" />
+        <option value="$PROJECT_DIR$/Lab6/Lab6Q8-4.py" />
       </list>
     </option>
   </component>
@@ -96,25 +109,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Lab6Q8-2">
-    <configuration name="Lab5Q5-17" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="BSYS2065-Lab" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lab5" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab5/Lab5Q5-17.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.Lab6Q8-4">
     <configuration name="Lab5Q7-12" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="BSYS2065-Lab" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -187,20 +182,38 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="Lab6Q8-4" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="BSYS2065-Lab" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lab6" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab6/Lab6Q8-4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
-      <item itemvalue="Python.Lab5Q5-17" />
       <item itemvalue="Python.Lab5Q7-6" />
       <item itemvalue="Python.Lab5Q7-8" />
       <item itemvalue="Python.Lab5Q7-12" />
       <item itemvalue="Python.Lab6Q8-2" />
+      <item itemvalue="Python.Lab6Q8-4" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Lab6Q8-4" />
         <item itemvalue="Python.Lab6Q8-2" />
         <item itemvalue="Python.Lab5Q7-12" />
         <item itemvalue="Python.Lab5Q7-8" />
         <item itemvalue="Python.Lab5Q7-6" />
-        <item itemvalue="Python.Lab5Q5-17" />
       </list>
     </recent_temporary>
   </component>
@@ -219,6 +232,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-5" y="0" width="1485" height="876" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12440517" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -402,6 +416,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab6/Lab6Q8-4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="28" column="20" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+          <folding>
+            <element signature="e#149#162#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
