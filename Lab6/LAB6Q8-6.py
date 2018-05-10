@@ -43,21 +43,24 @@ def isInScreen(w, t):
     return stillIn
 
 
-def wallcheck(toit):
-    if toit.xcor() > rightBound-leeway:
-        toit.setheading(toit.towards((0, 0)))
-        toit.forward(10)
-    elif toit.xcor() < leftBound + leeway:
-        toit.setheading(toit.towards((0, 0)))
-        toit.forward(10)
-    elif toit.ycor() > topBound - leeway:
-        toit.setheading(toit.towards((0, 0)))
-        toit.forward(10)
-    elif toit.ycor() < bottomBound + leeway:
-        toit.setheading(toit.towards((0, 0)))
-        toit.forward(10)
+def wallcheck(toit1, toit2):
+    if toit1.xcor() > rightBound-leeway:
+        toit1.setheading(toit1.towards((0, 0)))
+        toit1.forward(10)
+    elif toit1.xcor() < leftBound + leeway:
+        toit1.setheading(toit1.towards((0, 0)))
+        toit1.forward(10)
+    elif toit1.ycor() > topBound - leeway:
+        toit1.setheading(toit1.towards((0, 0)))
+        toit1.forward(10)
+    elif toit1.ycor() < bottomBound + leeway:
+        toit1.setheading(toit1.towards((0, 0)))
+        toit1.forward(10)
+    elif areColliding(toit1, toit2):
+        toit1.setheading(~toit1.towards(toit2))
+
     else:
-        moveRandom(wn, toit)
+        moveRandom(wn, toit1)
 
 
 t1 = turtle.Turtle()
@@ -92,10 +95,7 @@ t2.speed(0)
 
 leeway = int(10)
 while 1:
-    wallcheck(t1)
-    wallcheck(t2)
-
-
-
+    wallcheck(t1, t2)
+    wallcheck(t2, t1)
 
 wn.exitonclick()
