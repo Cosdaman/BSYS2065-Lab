@@ -10,11 +10,11 @@ import turtle
 
 
 def moveRandom(wn, t):
-    coin = random.randrange(0,2)
+    coin = random.randrange(0, 2)
     if coin == 0:
-        t.left(90)
+        t.left(random.randint(0, 361))
     else:
-        t.right(90)
+        t .right(random.randint(0, 361))
 
     t.forward(50)
 
@@ -42,6 +42,24 @@ def isInScreen(w, t):
         stillIn = False
     return stillIn
 
+
+def wallcheck(toit):
+    if toit.xcor() > rightBound-leeway:
+        toit.setheading(toit.towards((0, 0)))
+        toit.forward(10)
+    elif toit.xcor() < leftBound + leeway:
+        toit.setheading(toit.towards((0, 0)))
+        toit.forward(10)
+    elif toit.ycor() > topBound - leeway:
+        toit.setheading(toit.towards((0, 0)))
+        toit.forward(10)
+    elif toit.ycor() < bottomBound + leeway:
+        toit.setheading(toit.towards((0, 0)))
+        toit.forward(10)
+    else:
+        moveRandom(wn, toit)
+
+
 t1 = turtle.Turtle()
 t2 = turtle.Turtle()
 wn = turtle.Screen()
@@ -60,18 +78,24 @@ topBound = int(topBound)
 bottomBound = int(bottomBound)
 
 t1.up()
-t1.goto(random.randrange(leftBound, rightBound),random.randrange(bottomBound, topBound))
+t1.goto(random.randrange(leftBound, rightBound), random.randrange(bottomBound, topBound))
 t1.setheading(random.randrange(1, 360))
 t1.down()
 
 t2.up()
-t2.goto(random.randrange(leftBound, rightBound),random.randrange(bottomBound, topBound))
+t2.goto(random.randrange(leftBound, rightBound), random.randrange(bottomBound, topBound))
 t2.setheading(random.randrange(1, 360))
 t2.down()
 
+t1.speed(0)
+t2.speed(0)
 
-while isInScreen(wn, t1) and isInScreen(wn, t2):
-    moveRandom(wn, t1)
-    moveRandom(wn, t2)
+leeway = int(10)
+while 1:
+    wallcheck(t1)
+    wallcheck(t2)
+
+
+
 
 wn.exitonclick()
