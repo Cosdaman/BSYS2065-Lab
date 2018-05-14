@@ -16,7 +16,7 @@ def moveRandom(wn, t):
     else:
         t .right(random.randint(0, 361))
 
-    t.forward(50)
+    t.forward(20)
 
 
 def areColliding(t1, t2):
@@ -44,6 +44,7 @@ def isInScreen(w, t):
 
 
 def wallcheck(toit1, toit2):
+    leeway = 20
     if toit1.xcor() > rightBound-leeway:
         toit1.setheading(toit1.towards((0, 0)))
         toit1.forward(10)
@@ -93,9 +94,8 @@ t2.down()
 t1.speed(0)
 t2.speed(0)
 
-leeway = int(10)
+
 while 1:
     wallcheck(t1, t2)
     wallcheck(t2, t1)
 
-wn.exitonclick()
