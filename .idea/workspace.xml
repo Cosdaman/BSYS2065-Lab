@@ -50,8 +50,8 @@
       <file leaf-file-name="LAB7Q9-12.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Lab7/LAB7Q9-12.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+            <state relative-caret-position="119">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -267,6 +267,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1613" height="883" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11444653" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -508,8 +509,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab7/LAB7Q9-12.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>

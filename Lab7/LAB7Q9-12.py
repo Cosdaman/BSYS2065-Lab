@@ -1,5 +1,5 @@
 # Write a function that removes all occurrences of a string from another string.
-import string
+
 
 def removestring(stringthing, stringremovething):
     x = stringthing.replace(stringremovething, "")
